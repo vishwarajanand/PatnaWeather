@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8" />
+  <title>Patna Weather</title>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async
+          src="https://www.googletagmanager.com/gtag/js?id=UA-70422905-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+    gtag('config', 'UA-70422905-1');
+  </script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.3/moment.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.8.0/Chart.min.js"></script>
+  <script
+          src="https://cdnjs.cloudflare.com/ajax/libs/chartjs-plugin-annotation/1.4.0/chartjs-plugin-annotation.min.js"></script>
+</head>
+
+<body>
+  <div>
+    <section id="radar">
+      <h1 style="display:flex;justify-content:center;">Wind / Cloud Radar</h1>
+      <div style="display:flex;justify-content:center;">
+        <iframe width="800"
+                height="500"
+                src="https://embed.windy.com/embed2.html?lat=25.594&lon=85.137&detailLat=25.594&detailLon=85.137&width=800&height=500&zoom=11&level=surface&overlay=rain&product=ecmwf&menu=&message=true&marker=&calendar=now&pressure=&type=map&location=coordinates&detail=&metricWind=km%2Fh&metricTemp=%C2%B0C&radarRange=-1"
+                frameborder="0"></iframe>
+      </div>
+    </section>
+  </div>
+</body>
+
+</html>
