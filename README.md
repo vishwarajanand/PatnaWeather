@@ -3,7 +3,7 @@ Website to show weather report for Patna City, Bihar, India.
 
 # Preview
 
-![Preview](https://github.com/vishwarajanand/PatnaWeather/blob/master/demo.png?raw=true "Preview")
+![Preview](https://github.com/vishwarajanand/PatnaWeather/blob/main/demo.png?raw=true "Preview")
 
 # Demo
 Hosted on Github Pages:
