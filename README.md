@@ -11,7 +11,7 @@ Hosted on Github Pages:
 
 # Blog
 
-Blog is published at: https://vishwarajanand.com/business/released-patna-weather-website/
+Blog is published at: https://vishwarajanand.com/tech/released-patna-weather-forecast-website/
 
 # Credits
 Data provided by [windy.com](https://www.windy.com/)
